@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) throws Exception{
 
-
+        System.out.println("Welcome to Hangman!");
 
         File dictionary = new File("src/dictionary.txt");
 
@@ -54,10 +54,10 @@ public class Main {
             boolean done = true;
             for (char myAnswer : myAnswers) {
                 if (myAnswer == '?') {
-                    System.out.println("_");
+                    System.out.print("_");
                     done = false;
                 } else {
-                    System.out.println(" " + myAnswer);
+                    System.out.print(" " + myAnswer);
                 }
             }
             System.out.println("\n" + "Lives left: " + lives);
@@ -72,6 +72,7 @@ public class Main {
                 finished = true;
             }
         }
+        System.out.println(hidden_text);
     }
     public static void drawHangman(int l) {
         if(l == 6) {
