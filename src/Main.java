@@ -6,6 +6,8 @@ public class Main {
 
     public static void main(String[] args) throws Exception{
 
+
+
         File dictionary = new File("src/dictionary.txt");
 
         Scanner textScanner = new Scanner(dictionary);
@@ -26,25 +28,25 @@ public class Main {
         boolean finished = false;
         int lives = 6;
 
-        while(!finished){
+        while(!finished) {
             System.out.println("********************");
 
             String letter = input.next();
             //checks for valid input
-            while(letter.length() != 1 || Character.isDigit(letter.charAt(0))){
+            while (letter.length() != 1 || Character.isDigit(letter.charAt(0))) {
                 System.out.println("Error input - Try again");
                 letter = input.next();
             }
 
             //checks if letter is in the word
             boolean found = false;
-            for(int i = 0; i < textArray.length; i++){
-                if (letter.charAt(0) == textArray[i]){
+            for (int i = 0; i < textArray.length; i++) {
+                if (letter.charAt(0) == textArray[i]) {
                     myAnswers[i] = textArray[i];
                     found = true;
                 }
             }
-            if(!found){
+            if (!found) {
                 lives--;
 
                 System.out.println("Wrong letter");
@@ -59,16 +61,81 @@ public class Main {
                 }
             }
             System.out.println("\n" + "Lives left: " + lives);
+            drawHangman(lives);
 
             //checks if the game ends
-            if (done){
+            if (done) {
                 System.out.println("Congrats. You found the word");
             }
-            if (lives <= 0){
+            if (lives <= 0) {
                 System.out.println("You are dead!");
                 finished = true;
             }
         }
-
+    }
+    public static void drawHangman(int l) {
+        if(l == 6) {
+            System.out.println("|----------");
+            System.out.println("|");
+            System.out.println("|");
+            System.out.println("|");
+            System.out.println("|");
+            System.out.println("|");
+            System.out.println("|");
+        }
+        else if(l == 5) {
+            System.out.println("|----------");
+            System.out.println("|    O");
+            System.out.println("|");
+            System.out.println("|");
+            System.out.println("|");
+            System.out.println("|");
+            System.out.println("|");
+        }
+        else if(l == 4) {
+            System.out.println("|----------");
+            System.out.println("|    O");
+            System.out.println("|    |");
+            System.out.println("|");
+            System.out.println("|");
+            System.out.println("|");
+            System.out.println("|");
+        }
+        else if(l == 3) {
+            System.out.println("|----------");
+            System.out.println("|    O");
+            System.out.println("|   -|");
+            System.out.println("|");
+            System.out.println("|");
+            System.out.println("|");
+            System.out.println("|");
+        }
+        else if(l == 2) {
+            System.out.println("|----------");
+            System.out.println("|    O");
+            System.out.println("|   -|-");
+            System.out.println("|");
+            System.out.println("|");
+            System.out.println("|");
+            System.out.println("|");
+        }
+        else if(l == 1) {
+            System.out.println("|----------");
+            System.out.println("|    O");
+            System.out.println("|   -|-");
+            System.out.println("|   /");
+            System.out.println("|");
+            System.out.println("|");
+            System.out.println("|");
+        }
+        else{
+            System.out.println("|----------");
+            System.out.println("|    O");
+            System.out.println("|   -|-");
+            System.out.println("|   /|");
+            System.out.println("|");
+            System.out.println("|");
+            System.out.println("|");
+        }
     }
 }
