@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) throws Exception{
 
-        File dictionary = new File("C:\\Users\\user\\IdeaProjects\\Hangman\\src\\dictionary. txt");
+        File dictionary = new File("src/dictionary.txt");
 
         Scanner textScanner = new Scanner(dictionary);
         Scanner input = new Scanner(System.in);
