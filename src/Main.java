@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) throws Exception{
 
-        File dictionary = new File("/dictionary.txt");
+        File dictionary = new File("C:\\Users\\user\\IdeaProjects\\Hangman\\src\\dictionary. txt");
 
         Scanner textScanner = new Scanner(dictionary);
         Scanner input = new Scanner(System.in);
@@ -27,7 +27,7 @@ public class Main {
         int lives = 6;
 
         while(!finished){
-            System.out.println("******************");
+            System.out.println("********************");
 
             String letter = input.next();
             //checks for valid input
