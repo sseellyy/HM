@@ -60,7 +60,7 @@ public class Main {
                     System.out.print(" " + myAnswer);
                 }
             }
-            System.out.println("\n" + "Lives left: " + lives + "❤\uFE0F");
+            System.out.println("\n" + "Lives left: " + lives + "\uD83D\uDC96");
             drawHangman(lives);
 
             //checks if the game ends
