@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) throws Exception{
 
-        System.out.println("Welcome to Hangman!");
+        System.out.println("Welcome to the game! \uD83C\uDFAE");
 
         File dictionary = new File("src/dictionary.txt");
 
@@ -29,12 +29,12 @@ public class Main {
         int lives = 6;
 
         while(!finished) {
-            System.out.println("********************");
+            System.out.println("*****************");
 
             String letter = input.next();
             //checks for valid input
             while (letter.length() != 1 || Character.isDigit(letter.charAt(0))) {
-                System.out.println("Error input - Try again");
+                System.out.println("Error input \uD83D\uDEAB");
                 letter = input.next();
             }
 
@@ -49,7 +49,7 @@ public class Main {
             if (!found) {
                 lives--;
 
-                System.out.println("Wrong letter");
+                System.out.println("Wrong letter ❌");
             }
             boolean done = true;
             for (char myAnswer : myAnswers) {
@@ -60,19 +60,19 @@ public class Main {
                     System.out.print(" " + myAnswer);
                 }
             }
-            System.out.println("\n" + "Lives left: " + lives);
+            System.out.println("\n" + "Lives left: " + lives + "❤\uFE0F");
             drawHangman(lives);
 
             //checks if the game ends
             if (done) {
-                System.out.println("Congrats. You found the word");
+                System.out.println("Congrats. You found the word! \uD83C\uDFC6");
             }
             if (lives <= 0) {
-                System.out.println("You are dead!");
+                System.out.println("You are dead! \uD83D\uDC80");
                 finished = true;
             }
         }
-        System.out.println(hidden_text);
+        System.out.println("The answer is: " + hidden_text);
     }
     public static void drawHangman(int l) {
         if(l == 6) {
@@ -85,8 +85,8 @@ public class Main {
             System.out.println("|");
         }
         else if(l == 5) {
-            System.out.println("|----------");
-            System.out.println("|    O");
+            System.out.println("----------");
+            System.out.println("|    \uD83D\uDC68");
             System.out.println("|");
             System.out.println("|");
             System.out.println("|");
@@ -95,7 +95,7 @@ public class Main {
         }
         else if(l == 4) {
             System.out.println("|----------");
-            System.out.println("|    O");
+            System.out.println("|    \uD83D\uDC68");
             System.out.println("|    |");
             System.out.println("|");
             System.out.println("|");
@@ -104,7 +104,7 @@ public class Main {
         }
         else if(l == 3) {
             System.out.println("|----------");
-            System.out.println("|    O");
+            System.out.println("|    \uD83D\uDC68");
             System.out.println("|   -|");
             System.out.println("|");
             System.out.println("|");
@@ -113,7 +113,7 @@ public class Main {
         }
         else if(l == 2) {
             System.out.println("|----------");
-            System.out.println("|    O");
+            System.out.println("|    \uD83D\uDC68");
             System.out.println("|   -|-");
             System.out.println("|");
             System.out.println("|");
@@ -122,7 +122,7 @@ public class Main {
         }
         else if(l == 1) {
             System.out.println("|----------");
-            System.out.println("|    O");
+            System.out.println("|    \uD83D\uDC68");
             System.out.println("|   -|-");
             System.out.println("|   /");
             System.out.println("|");
@@ -131,7 +131,7 @@ public class Main {
         }
         else{
             System.out.println("|----------");
-            System.out.println("|    O");
+            System.out.println("|    \uD83D\uDC68");
             System.out.println("|   -|-");
             System.out.println("|   /|");
             System.out.println("|");
