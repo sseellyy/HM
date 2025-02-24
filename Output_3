@@ -1,0 +1,137 @@
+"C:\Program Files\Java\jdk-23\bin\java.exe" "-javaagent:C:\Users\user\AppData\Local\Programs\IntelliJ IDEA Community Edition\lib\idea_rt.jar=50133:C:\Users\user\AppData\Local\Programs\IntelliJ IDEA Community Edition\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\user\IdeaProjects\Hangman\out\production\Hangman Main
+Welcome to the game! 🎮
+*****************
+-
+Wrong letter ❌
+__________
+Lives left: 5💖
+----------
+|    👨
+|
+|
+|
+|
+|
+*****************
+*
+Wrong letter ❌
+__________
+Lives left: 4💖
+|----------
+|    👨
+|    |
+|
+|
+|
+|
+*****************
+0
+Error input 🚫
+5
+Error input 🚫
+c
+_ c c_______
+Lives left: 4💖
+|----------
+|    👨
+|    |
+|
+|
+|
+|
+*****************
+/
+Wrong letter ❌
+_ c c_______
+Lives left: 3💖
+|----------
+|    👨
+|   -|
+|
+|
+|
+|
+*****************
+t
+_ c c___ t___
+Lives left: 3💖
+|----------
+|    👨
+|   -|
+|
+|
+|
+|
+*****************
+o
+_ c c___ t o__
+Lives left: 3💖
+|----------
+|    👨
+|   -|
+|
+|
+|
+|
+*****************
+n
+Wrong letter ❌
+_ c c___ t o__
+Lives left: 2💖
+|----------
+|    👨
+|   -|-
+|
+|
+|
+|
+*****************
+s
+_ c c_ s_ t o__
+Lives left: 2💖
+|----------
+|    👨
+|   -|-
+|
+|
+|
+|
+*****************
+a
+ a c c_ s a t o__
+Lives left: 2💖
+|----------
+|    👨
+|   -|-
+|
+|
+|
+|
+*****************
+e
+Wrong letter ❌
+ a c c_ s a t o__
+Lives left: 1💖
+|----------
+|    👨
+|   -|-
+|   /
+|
+|
+|
+*****************
+b
+Wrong letter ❌
+ a c c_ s a t o__
+Lives left: 0💖
+|----------
+|    👨
+|   -|-
+|   /|
+|
+|
+|
+You are dead! 💀
+The answer is: accusatory
+
+Process finished with exit code 0
