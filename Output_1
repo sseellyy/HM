@@ -1,0 +1,155 @@
+"C:\Program Files\Java\jdk-23\bin\java.exe" "-javaagent:C:\Users\user\AppData\Local\Programs\IntelliJ IDEA Community Edition\lib\idea_rt.jar=53477:C:\Users\user\AppData\Local\Programs\IntelliJ IDEA Community Edition\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\user\IdeaProjects\Hangman\out\production\Hangman Main
+Welcome to the game! 🎮
+*****************
+a
+ a_________ a____
+Lives left: 6💖
+|----------
+|
+|
+|
+|
+|
+|
+*****************
+r
+Wrong letter ❌
+ a_________ a____
+Lives left: 5💖
+----------
+|    👨
+|
+|
+|
+|
+|
+*****************
+o
+ a_________ a__ o_
+Lives left: 5💖
+----------
+|    👨
+|
+|
+|
+|
+|
+*****************
+s
+ a__ s______ a__ o_
+Lives left: 5💖
+----------
+|    👨
+|
+|
+|
+|
+|
+*****************
+e
+ a_ e s__ e___ a__ o_
+Lives left: 5💖
+----------
+|    👨
+|
+|
+|
+|
+|
+*****************
+b
+Wrong letter ❌
+ a_ e s__ e___ a__ o_
+Lives left: 4💖
+|----------
+|    👨
+|    |
+|
+|
+|
+|
+*****************
+n
+ a n e s__ e___ a__ o n
+Lives left: 4💖
+|----------
+|    👨
+|    |
+|
+|
+|
+|
+*****************
+m
+Wrong letter ❌
+ a n e s__ e___ a__ o n
+Lives left: 3💖
+|----------
+|    👨
+|   -|
+|
+|
+|
+|
+*****************
+y
+Wrong letter ❌
+ a n e s__ e___ a__ o n
+Lives left: 2💖
+|----------
+|    👨
+|   -|-
+|
+|
+|
+|
+*****************
+u
+Wrong letter ❌
+ a n e s__ e___ a__ o n
+Lives left: 1💖
+|----------
+|    👨
+|   -|-
+|   /
+|
+|
+|
+*****************
+t
+ a n e s t_ e t__ a t_ o n
+Lives left: 1💖
+|----------
+|    👨
+|   -|-
+|   /
+|
+|
+|
+*****************
+i
+ a n e s t_ e t i_ a t i o n
+Lives left: 1💖
+|----------
+|    👨
+|   -|-
+|   /
+|
+|
+|
+*****************
+l
+Wrong letter ❌
+ a n e s t_ e t i_ a t i o n
+Lives left: 0💖
+|----------
+|    👨
+|   -|-
+|   /|
+|
+|
+|
+You are dead! 💀
+The answer is: anesthetization
+
+Process finished with exit code 0
