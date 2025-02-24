@@ -4,16 +4,16 @@
 The project is a simple console-based implementation of the classic game Hangman. The game reads a random word from a text file and prompts the user to guess letters. The user is allowed up to 6 incorrect guesses (lives) before they lose the game.
 
 ### Design Choices:
-1. **Dictionary File:** The 20 000 words for the game are stored in a text file (dictionary.txt), which is read into the program and a random word is selected.
+1. **Dictionary File:** The _20 000_ words for the game are stored in a text file (dictionary.txt), which is read into the program and a random word is selected.
 2. **Input Validation:** The program ensures that the user input is a valid single letter (no numbers or multiple characters).
 3. **Graphical Representation:** A simple ASCII art of a hangman is displayed to show the progress of the player's failure. The hangman changes with each incorrect guess.
 4. **Input/Output:** The user interacts with the game through the console, entering one letter at a time. The game gives feedback in the form of remaining lives and the current state of the word (with underscores and guessed letters).
 
 ### Challenges Encountered:
-**1. Input Handling:** Ensuring that user inputs are valid (only a single letter) and correctly processed was tricky.
-**2. Hangman Drawing:** Dynamically updating the hangman figure to reflect the player's status was a creative challenge.
-**3. Game Loop Management:** Managing the state of the game, including checking for the player's win/lose conditions, updating the word display, and handling user input effectively.
-**4. File Reading:** Loading words from an external file (dictionary.txt) required careful handling of file operations to prevent crashes or incorrect data parsing.
+- **Input Handling:** Ensuring that user inputs are valid (only a single letter) and correctly processed was tricky.
+- **Hangman Drawing:** Dynamically updating the hangman figure to reflect the player's status was a creative challenge.
+- **Game Loop Management:** Managing the state of the game, including checking for the player's win/lose conditions, updating the word display, and handling user input effectively.
+- **File Reading:** Loading words from an external file (dictionary.txt) required careful handling of file operations to prevent crashes or incorrect data parsing.
 
 
 
