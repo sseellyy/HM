@@ -50,6 +50,6 @@ The project is a simple console-based implementation of the classic game Hangman
 ## Additional Explanations
 **ASCII Hangman Drawing:** The hangman is drawn progressively as the player makes incorrect guesses. Each stage of the drawing corresponds to a number of lives remaining. For example, when the player has 6 lives left, no hangman is drawn; after each wrong guess, parts of the hangman (head, body, arms, etc.) are drawn.
 **Edge Case Handling:** The game handles edge cases such as:
-**>** Invalid input: The player must input exactly one alphabetic character at a time.
-**>** Case-insensitivity: The game doesn't differentiate between uppercase and lowercase letters.
-**>** No repeated guesses: If the user guesses the same letter more than once, the game doesn't penalize the player again.
+* Invalid input: The player must input exactly one alphabetic character at a time.
+* Case-insensitivity: The game doesn't differentiate between uppercase and lowercase letters.
+* No repeated guesses: If the user guesses the same letter more than once, the game doesn't penalize the player again.
