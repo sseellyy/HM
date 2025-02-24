@@ -1,0 +1,174 @@
+"C:\Program Files\Java\jdk-23\bin\java.exe" "-javaagent:C:\Users\user\AppData\Local\Programs\IntelliJ IDEA Community Edition\lib\idea_rt.jar=49684:C:\Users\user\AppData\Local\Programs\IntelliJ IDEA Community Edition\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\user\IdeaProjects\Hangman\out\production\Hangman Main
+Welcome to the game! 🎮
+*****************
+d
+Wrong letter ❌
+___________
+Lives left: 5💖
+----------
+|    👨
+|
+|
+|
+|
+|
+*****************
+a
+ a__________
+Lives left: 5💖
+----------
+|    👨
+|
+|
+|
+|
+|
+*****************
+e
+Wrong letter ❌
+ a__________
+Lives left: 4💖
+|----------
+|    👨
+|    |
+|
+|
+|
+|
+*****************
+s
+ a_________ s
+Lives left: 4💖
+|----------
+|    👨
+|    |
+|
+|
+|
+|
+*****************
+t
+ a_____ t___ s
+Lives left: 4💖
+|----------
+|    👨
+|    |
+|
+|
+|
+|
+*****************
+i
+ a_____ t i__ s
+Lives left: 4💖
+|----------
+|    👨
+|    |
+|
+|
+|
+|
+*****************
+o
+ a__ o__ t i__ s
+Lives left: 4💖
+|----------
+|    👨
+|    |
+|
+|
+|
+|
+*****************
+n
+ a__ o_ n t i n_ s
+Lives left: 4💖
+|----------
+|    👨
+|    |
+|
+|
+|
+|
+*****************
+m
+Wrong letter ❌
+ a__ o_ n t i n_ s
+Lives left: 3💖
+|----------
+|    👨
+|   -|
+|
+|
+|
+|
+*****************
+e
+Wrong letter ❌
+ a__ o_ n t i n_ s
+Lives left: 2💖
+|----------
+|    👨
+|   -|-
+|
+|
+|
+|
+*****************
+b
+Wrong letter ❌
+ a__ o_ n t i n_ s
+Lives left: 1💖
+|----------
+|    👨
+|   -|-
+|   /
+|
+|
+|
+*****************
+s
+ a__ o_ n t i n_ s
+Lives left: 1💖
+|----------
+|    👨
+|   -|-
+|   /
+|
+|
+|
+*****************
+c
+ a c c o_ n t i n_ s
+Lives left: 1💖
+|----------
+|    👨
+|   -|-
+|   /
+|
+|
+|
+*****************
+u
+ a c c o u n t i n_ s
+Lives left: 1💖
+|----------
+|    👨
+|   -|-
+|   /
+|
+|
+|
+*****************
+g
+ a c c o u n t i n g s
+Lives left: 1💖
+|----------
+|    👨
+|   -|-
+|   /
+|
+|
+|
+Congrats. You found the word! 🏆
+*****************
