@@ -13,13 +13,13 @@ The project is a simple console-based implementation of the classic game Hangman
 - **Input Handling:** Ensuring that user inputs are valid (only a single letter) and correctly processed was tricky.
 - **Hangman Drawing:** Dynamically updating the hangman figure to reflect the player's status was a creative challenge.
 - **Game Loop Management:** Managing the state of the game, including checking for the player's win/lose conditions, updating the word display, and handling user input effectively.
-- **File Reading:** Loading words from an external file (dictionary.txt) required careful handling of file operations to prevent crashes or incorrect data parsing.
+- **File Reading:** Loading words from an external file _(dictionary.txt)_ required careful handling of file operations to prevent crashes or incorrect data parsing.
 
 
 
 ##  Algorithms and Data Structures Used
 ### Main Algorithm:
-1. **Word Selection:** The game reads a list of words from a dictionary file (dictionary.txt), and randomly selects one to be guessed by the player.
+1. **Word Selection:** The game reads a list of words from a dictionary file _(dictionary.txt)_, and randomly selects one to be guessed by the player.
 2. **Word Display:** The word is initially hidden, with each character replaced by an underscore (_). As the player guesses correctly, the correct letters are revealed in the word.
 3. **User Input Validation:** The game continuously asks the player for input until they enter a valid single character.
 4. **Game Loop:** The game runs in a loop until the player either guesses the word completely or runs out of lives. After each incorrect guess, the number of lives decreases.
@@ -41,15 +41,15 @@ The project is a simple console-based implementation of the classic game Hangman
 
 ## Files Used for Input and Output
 ### Input:
--**dictionary.txt:** The game reads a dictionary file containing a list of words. Each line in the file corresponds to one word. The file is located at src/dictionary.txt and is read into the game using a Scanner. The word is randomly selected from this file to be used in the game.
+- **dictionary.txt:** The game reads a dictionary file containing a list of words. Each line in the file corresponds to one word. The file is located at src/dictionary.txt and is read into the game using a Scanner. The word is randomly selected from this file to be used in the game.
 ### Output:
 - The game outputs the current state of the word after each guess, along with the remaining lives. It also outputs an ASCII hangman drawing to show the player's progress.
 - The console displays messages for both correct and incorrect guesses and informs the player if they win or lose.
 
 
 ## Additional Explanations
-**ASCII Hangman Drawing:** The hangman is drawn progressively as the player makes incorrect guesses. Each stage of the drawing corresponds to a number of lives remaining. For example, when the player has 6 lives left, no hangman is drawn; after each wrong guess, parts of the hangman (head, body, arms, etc.) are drawn.
-**Edge Case Handling:** The game handles edge cases such as:
-* Invalid input: The player must input exactly one alphabetic character at a time.
-* Case-insensitivity: The game doesn't differentiate between uppercase and lowercase letters.
-* No repeated guesses: If the user guesses the same letter more than once, the game doesn't penalize the player again.
+- **ASCII Hangman Drawing:** The hangman is drawn progressively as the player makes incorrect guesses. Each stage of the drawing corresponds to a number of lives remaining. For example, when the player has 6 lives left, no hangman is drawn; after each wrong guess, parts of the hangman (head, body, arms, etc.) are drawn.
+- **Edge Case Handling:** The game handles edge cases such as:
+ - _Invalid input:_ The player must input exactly one alphabetic character at a time.
+ - _Case-insensitivity:_ The game doesn't differentiate between uppercase and lowercase letters.
+ - _No repeated guesses:_ If the user guesses the same letter more than once, the game doesn't penalize the player again.
